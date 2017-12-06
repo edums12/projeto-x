@@ -1,5 +1,8 @@
 // Quando incicializar o JS
 $(document).ready(function(){
+    // Parallax
+    $('.parallax').parallax();
+
     // Modal -> Aviso na tela
     $('.modal').modal();
     // Select -> Define Seleção
